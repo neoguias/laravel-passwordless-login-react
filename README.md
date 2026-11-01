@@ -4,7 +4,7 @@ Una aplicación Laravel con Inertia y React en la que se entra sin contraseña: 
 
 Antes de enviar ningún código, el formulario pasa por [Cloudflare Turnstile](https://www.cloudflare.com/products/turnstile/) con el componente de React de [Laracaptcha](https://github.com/edulazaro/laracaptcha). El servidor le pasa a la página lo que el componente necesita con `Captcha::props()`, y el token llega al formulario con `onToken`.
 
-El tutorial completo, paso a paso, está en Neoguias: [Cómo crear un login sin contraseña con Laravel, Inertia y React](https://www.neoguias.com/login-sin-contrasena-laravel-react/). La versión con Blade está en [neoguias/laravel-passwordless-login](https://github.com/neoguias/laravel-passwordless-login) y la de Livewire en [neoguias/laravel-passwordless-login-livewire](https://github.com/neoguias/laravel-passwordless-login-livewire) y la de Vue en [neoguias/laravel-passwordless-login-vue](https://github.com/neoguias/laravel-passwordless-login-vue).
+El tutorial completo, paso a paso, está en Neoguias: [Cómo crear un login sin contraseña con Laravel, Inertia y React](https://www.neoguias.com/login-sin-contrasena-laravel-react/). La versión con Blade está en [neoguias/laravel-passwordless-login](https://github.com/neoguias/laravel-passwordless-login), la de Livewire en [neoguias/laravel-passwordless-login-livewire](https://github.com/neoguias/laravel-passwordless-login-livewire) y la de Vue en [neoguias/laravel-passwordless-login-vue](https://github.com/neoguias/laravel-passwordless-login-vue).
 
 ## Cómo arrancarlo
 
